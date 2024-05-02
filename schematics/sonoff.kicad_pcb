@@ -2152,9 +2152,9 @@
 			(pintype "passive")
 			(uuid "6b0a50d9-4b58-4f3d-bc66-5bdd4dc7a52b")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/TerminalBlock.3dshapes/TerminalBlock_bornier-6_P5.08mm.wrl"
+		(model "${KICAD8_3DMODEL_DIR}/TerminalBlock_Phoenix.3dshapes/TerminalBlock_Phoenix_MKDS-1,5-6_1x06_P5.00mm_Horizontal.step"
 			(offset
-				(xyz 12.69999981 0 0)
+				(xyz 0.2 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -3070,7 +3070,7 @@
 			(pintype "passive")
 			(uuid "cc88edcc-efce-4965-8673-0f1173595152")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/TerminalBlock_4Ucon.3dshapes/TerminalBlock_4Ucon_1x04_P3.50mm_Horizontal.wrl"
+		(model "${KICAD8_3DMODEL_DIR}/TerminalBlock_Phoenix.3dshapes/TerminalBlock_Phoenix_PT-1,5-4-3.5-H_1x04_P3.50mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3800,6 +3800,29 @@
 			(pinfunction "URXD")
 			(pintype "input")
 			(uuid "142e60a3-2148-4f90-a828-388fc8789615")
+		)
+		(model "${KIPRJMOD}/lib/ESP-01 3D model/ESP8266_ESP01_cp.step"
+			(offset
+				(xyz 0 0 7)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x04_P2.54mm_Vertical.step"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
 		)
 	)
 	(footprint "Diode_THT:D_DO-41_SOD81_P2.54mm_Vertical_KathodeUp"

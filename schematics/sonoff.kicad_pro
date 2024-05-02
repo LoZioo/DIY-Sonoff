@@ -491,8 +491,8 @@
       "plot": "C:/Users/lozio/Desktop/gerber/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
-      "svg": "",
+      "step": "C:/Users/lozio/Desktop/sonoff.step",
+      "svg": "C:/Users/lozio/Desktop/Nuova cartella/",
       "vrml": ""
     },
     "page_layout_descr_file": ""
