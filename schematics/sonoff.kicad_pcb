@@ -8441,6 +8441,19 @@
 			(justify left bottom mirror)
 		)
 	)
+	(gr_text "JLCJLCJLCJLC"
+		(at 129.54 84.074 0)
+		(layer "B.SilkS")
+		(uuid "34abfecf-d7f0-41f3-b569-7239c5996d79")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "OUT-1"
 		(at 100.33 58.928 270)
 		(layer "B.SilkS")
