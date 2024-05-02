@@ -58,7 +58,9 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "lib_footprint_mismatch|84836000|55499000|45764ce8-6366-41e1-a6a8-4570ba98268b|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -233,7 +235,10 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "lib_symbol_issues|1308100|342900|65d3cea4-56d0-437c-a369-fa40ff59d825|00000000-0000-0000-0000-000000000000|||",
+      "lib_symbol_issues|1308100|635000|f40bd18a-a79a-4e33-b76b-6ab89d82228b|00000000-0000-0000-0000-000000000000|||"
+    ],
     "meta": {
       "version": 0
     },
