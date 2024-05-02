@@ -1,11 +1,10 @@
 # DIY-Sonoff
-Simple sonoff based on the ESP-01 platform and on the awesome Tasmota firmware!
+Simple sonoff based on the ESP-01 devboard.
 
-## PCB 3D front render
+# Requirements
+To download the needed KiCad libraries, you must `cd schematics/lib` and run the [clone.sh](schematics/lib/clone.sh) script.
+
+# PCB previews
 ![Circuit](docs/front.png "Front")
-
-## PCB 3D back render
 ![Circuit](docs/back.png "Back")
-
-## Schematics
 ![Circuit](docs/circuit.png "Circuit")
