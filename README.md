@@ -12,6 +12,7 @@ Simple sonoff based on the ESP-01 devboard.
    * [ESP8266 bootloader GPIOs configurations](#esp8266-bootloader-gpios-configurations)
    * [ESP8266 GPIOs behaviour](#esp8266-gpios-behaviour)
    * [Suggested configurations](#suggested-configurations)
+- [Firmware](#firmware)
 - [Circuit and PCB](#circuit-and-pcb)
 - [Previews](#previews)
 - [References](#references)
@@ -73,6 +74,11 @@ Said that, when booting the already programmed module, you must ensure that the 
 | GPIO2 |      |      |       |   X   |
 | GPIO3 |      |   X  |       |       |
 
+# Firmware
+To control the board, you can:
+- Use a precompiled firmware like [Tasmota](https://tasmota.github.io/docs/) or [ESPHome](https://esphome.io/index.html).
+- Build your own firmware using Arduino, ESP8266 RTOS SDK, ESP8266 NonOS SDK...
+
 # Circuit and PCB
 ![Circuit](docs/circuit.png "Circuit")
 ![PCB](docs/front.png "Front")
@@ -86,3 +92,5 @@ Said that, when booting the already programmed module, you must ensure that the 
 
 # References
 - [Random Nerd Tutorials: ESP8266 pinout reference](https://randomnerdtutorials.com/esp8266-pinout-reference-gpios/)
+- [Tasmota](https://tasmota.github.io/docs/)
+- [ESPHome](https://esphome.io/index.html)
