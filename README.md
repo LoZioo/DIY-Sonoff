@@ -1,6 +1,23 @@
 # DIY-Sonoff
 Simple sonoff based on the ESP-01 devboard.
 
+# Table of contents
+<!-- TOC start (generated with https://github.com/derlin/bitdowntoc) -->
+
+- [Requirements](#requirements)
+- [3D enclosure](#3d-enclosure)
+- [Assembly](#assembly)
+- [GPIOs mapping](#gpios-mapping)
+   * [Inputs and outputs](#inputs-and-outputs)
+   * [ESP8266 bootloader GPIOs configurations](#esp8266-bootloader-gpios-configurations)
+   * [ESP8266 GPIOs behaviour](#esp8266-gpios-behaviour)
+   * [Suggested configurations](#suggested-configurations)
+- [Circuit and PCB](#circuit-and-pcb)
+- [Previews](#previews)
+- [References](#references)
+
+<!-- TOC end -->
+
 # Requirements
 To download the needed KiCad libraries, you must `cd schematics/lib` and run the [clone.sh](schematics/lib/clone.sh) script.
 
@@ -66,3 +83,6 @@ Said that, when booting the already programmed module, you must ensure that the 
 ![Preview 2](docs/preview_2.jpg "Preview 2")
 ![Preview 3](docs/preview_3.jpg "Preview 3")
 ![Preview 4](docs/preview_4.jpg "Preview 4")
+
+# References
+- [Random Nerd Tutorials: ESP8266 pinout reference](https://randomnerdtutorials.com/esp8266-pinout-reference-gpios/)
